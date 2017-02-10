@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  MPectus
 //
-//  Created by Ashlyn Hussey on 2/1/17.
-//  Copyright © 2017 EECS481. All rights reserved.
 //
 
 import UIKit
