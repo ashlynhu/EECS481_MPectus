@@ -514,6 +514,7 @@
 				6DE7081B1E42C8EF00CB7D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DE7081C1E42C8EF00CB7D81 /* Build configuration list for PBXNativeTarget "MPectusTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				6DE7081E1E42C8EF00CB7D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DE7081F1E42C8EF00CB7D81 /* Build configuration list for PBXNativeTarget "MPectusUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				6DE708211E42C8EF00CB7D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
