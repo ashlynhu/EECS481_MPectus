@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  MPectus
 //
-// 
-//  Copyright © 2017 EECS481. All rights reserved.
 //
 
 import UIKit
