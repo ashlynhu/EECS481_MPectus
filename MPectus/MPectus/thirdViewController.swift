@@ -2,18 +2,19 @@
 //  thirdViewController.swift
 //  Pectus
 //
-//  Created by Kyle Maune on 2/10/17.
-//  Copyright © 2017 Kyle Maune. All rights reserved.
 //
 
 import UIKit
 
 class thirdViewController: UIViewController {
+    //init(documentTypes allowedUTIs: [obj],
+         //in mode: UIDocumentPickerMode)
     
     @IBOutlet weak var firstName: UILabel!
     @IBOutlet weak var lastName: UILabel!
     @IBOutlet weak var patientID: UILabel!
     
+    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,5 +39,9 @@ class thirdViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    /*@IBAction func select(_ sender: UIButton) {
+        let fileGrabber = image
+    }*/
+    
 
 }
