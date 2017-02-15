@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D7C0BE01E54E17E006B250B /* cow.obj in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C0BDF1E54E17E006B250B /* cow.obj */; };
+		6D7C0BE21E54E291006B250B /* Pumpkin.obj in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C0BE11E54E291006B250B /* Pumpkin.obj */; };
 		6DE1B3AC1E533F4D003BEF65 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B3AB1E533F4D003BEF65 /* secondViewController.swift */; };
 		6DE1B3AE1E533F55003BEF65 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B3AD1E533F55003BEF65 /* thirdViewController.swift */; };
 		6DE707F51E42C8EF00CB7D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE707F41E42C8EF00CB7D81 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		6D1ACA7E1E537D3500A9B392 /* doctest1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = doctest1.playground; sourceTree = "<group>"; };
 		6D7C0BDF1E54E17E006B250B /* cow.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cow.obj; path = ../../cow.obj; sourceTree = "<group>"; };
+		6D7C0BE11E54E291006B250B /* Pumpkin.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pumpkin.obj; path = ../../Pumpkin.obj; sourceTree = "<group>"; };
 		6DE1B3AB1E533F4D003BEF65 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		6DE1B3AD1E533F55003BEF65 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		6DE707F11E42C8EF00CB7D81 /* MPectus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPectus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				6DE707F61E42C8EF00CB7D81 /* ViewController.swift */,
 				6DE707F81E42C8EF00CB7D81 /* Main.storyboard */,
 				6D7C0BDF1E54E17E006B250B /* cow.obj */,
+				6D7C0BE11E54E291006B250B /* Pumpkin.obj */,
 				6DE1B3AD1E533F55003BEF65 /* thirdViewController.swift */,
 				6D1ACA7E1E537D3500A9B392 /* doctest1.playground */,
 				6DE1B3AB1E533F4D003BEF65 /* secondViewController.swift */,
@@ -249,6 +252,7 @@
 				6DE707FF1E42C8EF00CB7D81 /* LaunchScreen.storyboard in Resources */,
 				6D7C0BE01E54E17E006B250B /* cow.obj in Resources */,
 				6DE707FC1E42C8EF00CB7D81 /* Assets.xcassets in Resources */,
+				6D7C0BE21E54E291006B250B /* Pumpkin.obj in Resources */,
 				6DE707FA1E42C8EF00CB7D81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
