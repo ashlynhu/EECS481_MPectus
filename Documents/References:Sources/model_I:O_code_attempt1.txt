@@ -1,0 +1,74 @@
+
+/* NOTE FROM ASHLYN: This code was adapted from code in iOS DeveloperZone ModelIO open source project. The methods used are from ModelIO and reference is included below. This attempt at 3D modeling was not successful, but hopefully will lead to some extensions.
+//
+//  ViewController.swift
+//  ModelIOApp
+//
+//  Created by idz on 5/9/16.
+//  Copyright © 2016 iOS Developer Zone.
+//  License: MIT
+//  See: https://raw.githubusercontent.com/iosdevzone/GettingStartedWithModelIO/master/LICENSE
+//
+*/
+import UIKit
+import ModelIO
+import SceneKit
+import SceneKit.ModelIO
+
+
+class ThirdViewController: UIViewController {
+    
+    // Layout vars
+    @IBOutlet weak var first: UILabel!
+    
+    @IBOutlet weak var last: UILabel!
+    
+    @IBOutlet weak var pID: UILabel!
+    
+    // SCNView
+    @IBOutlet weak var scene: SCNView!
+    
+    var sceneView: SCNView {
+        return self.view as! SCNView
+    }
+    
+    
+    // After view is loaded
+    override func viewDidLoad() {
+        // Variables
+        super.viewDidLoad()
+        
+        first.text = firstName
+        last.text = lastName
+        pID.text = ID
+        
+        
+        
+        // Load the .OBJ file
+        guard let url = Bundle.main.url(forResource: "cow", withExtension: "obj") else {
+            fatalError("Failed to find model file.")
+        }
+        
+        let asset = MDLAsset(url:url)
+        guard let object = asset.object(at: 0) as? MDLMesh else {
+            fatalError("Failed to get mesh from asset.")
+        }
+        
+        
+        // Wrap the ModelIO object in a SceneKit object
+        let node = SCNNode(mdlObject: object)
+        let scene = SCNScene()
+        scene.rootNode.addChildNode(node)
+        
+        // Set up the SceneView
+        sceneView.autoenablesDefaultLighting = true
+        sceneView.allowsCameraControl = true
+        sceneView.scene = scene
+        
+        
+        
+    }
+    
+    
+    
+}
